@@ -1,0 +1,36 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: unset;
+}
+
+.container{
+  max-width: 1240px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.site-header{
+  padding: 20px 0;
+  background-color: teal;
+}
+.site-header__container{
+  display: flex;
+}
+
+.nav{
+  margin-left: auto;
+}
+
+.nav__list{
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
